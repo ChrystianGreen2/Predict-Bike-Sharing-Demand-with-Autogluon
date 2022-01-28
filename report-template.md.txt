@@ -1,23 +1,26 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### NAME HERE
+#### José Chrystian Lima Pacheco
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: Add your explanation
+
+The First training did not involve any manipulation of the data, it was just a quick training to understand how Autogluon would perform on the "raw" data, it did not achieve bad results, which showed us that with hyperparameter tuning and feature engineering it would make us achieve even better results .
 
 ### What was the top ranked model that performed?
-TODO: Add your explanation
+For our first training round, the WeightedEnsemble_L3 model performed the best, with the lowest mse, despite the fit_time of 524.764818, its predict time was 0.000621.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-TODO: Add your explanation
+First of all we analyzed that there were some features that could be created from the datetime, features like day, time and month.
+
+We can also see that it would be possible to transform the different time and temperature intervals into categorical features.
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-TODO: Add your explanation
+After adding the new features the result in the submission went from {} to {}
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-TODO: Add your explanation
+After adding the different hyper parameters the result in the submission went from {} to {}
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 TODO: Add your explanation
